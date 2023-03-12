@@ -1,0 +1,229 @@
+/* MOBILE FIRST 375 PX */
+
+/* Police écriture */
+@font-face {
+  font-family: "Poppins"; /* nom de la police */
+  src: url("/fonts/Poppins-Thin.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Poppins-bold"; /* nom de la police */
+  src: url("/fonts/Poppins-Bold.ttf");
+  font-weight: normal;
+}
+
+/* général */
+
+body {
+  text-align: center;
+  background-color: hsl(0, 100%, 74%);
+  color: white;
+  font-family: "Poppins";
+}
+
+/* Styles pour les écrans de moins de 375px de large */
+@media (min-width: 375px) and (max-width: 1439px) {
+  body {
+    background-image: url(images/bg-intro-mobile.png);
+    background-size: 95%;
+  }
+}
+/* Styles pour les écrans de plus de 375px de large */
+@media (min-width: 1440px) {
+  body {
+    background-image: url(images/bg-intro-desktop.png);
+    background-size: cover;
+  }
+}
+/* header */
+header {
+  margin-top: 3rem;
+}
+h1 {
+  font-family: "Poppins-bold";
+}
+.header-text {
+  font-size: 16px;
+  font-weight: 600;
+}
+.saut-de-ligne {
+  display: block;
+}
+
+/* Main */
+main {
+  margin-top: 4rem;
+}
+.container-main-sub {
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 15px;
+  height: 4.5rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-bottom: 0.5rem;
+  font-size: 16px;
+}
+.span-main {
+  font-weight: 900;
+}
+form {
+  color: black;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+.Form {
+  background-color: white;
+  width: 90%;
+  height: 31em;
+  padding-top: 1.5rem;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+}
+input[type="text"] {
+  font-size: 16px;
+  height: 43px;
+  width: 290px;
+}
+input[type="email"] {
+  font-size: 16px;
+  height: 43px;
+  width: 290px;
+}
+input[type="password"] {
+  font-size: 16px;
+  height: 43px;
+  width: 290px;
+}
+input[type="text"]::placeholder {
+  font-size: 16px; /* taille de la police de caractères */
+  padding-left: 10px;
+  font-weight: bolder;
+}
+input[type="email"]::placeholder {
+  font-size: 16px; /* taille de la police de caractères */
+  padding-left: 10px;
+  font-weight: bolder;
+}
+
+input[type="password"]::placeholder {
+  font-size: 16px; /* taille de la police de caractères */
+  padding-left: 10px;
+  font-weight: bolder;
+}
+.padding-input {
+  padding-top: 22px;
+}
+
+/* DEBUT JS  */
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  font-size: 13px;
+  font-style: italic;
+  margin-left: 7rem;
+}
+/* FIN JS */
+
+input[type="submit"] {
+  background-color: hsl(154, 59%, 51%);
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase; /* texte en majuscules */
+  font-weight: 400;
+  height: 50px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Ajout de l'ombre */
+}
+.Terms-Services {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.Terms-Services p {
+  font-weight: 600;
+  color: #000;
+  font-size: 12px;
+}
+
+.Terms-Services a {
+  color: hsl(0, 63%, 65%);
+  text-decoration: underline;
+}
+.bold {
+  font-family: "Poppins-bold";
+}
+
+/* DESKTOP */
+
+@media (min-width: 1440px) {
+  body {
+    display: flex;
+    align-items: center;
+  }
+  header {
+    margin-top: 0rem;
+    margin-left: 10rem;
+
+    width: 60%;
+  }
+  h1 {
+    text-align: left;
+    font-size: 3rem;
+  }
+  .header-text {
+    font-size: 15px;
+    text-align: left;
+  }
+
+  main {
+    margin-top: 0rem;
+    width: 100%;
+  }
+  .flex-center {
+    display: block;
+  }
+  .Form {
+    width: 75%;
+    height: 30em;
+    margin-left: 8rem;
+  }
+  input[type="email"] {
+    font-size: 16px;
+    height: 44px;
+    width: 515px;
+  }
+  input[type="text"] {
+    font-size: 16px;
+    height: 44px;
+    width: 515px;
+  }
+  input[type="password"] {
+    font-size: 16px;
+    height: 44px;
+    width: 515px;
+  }
+  input[type="submit"] {
+    width: 522px;
+  }
+
+  .container-main-sub {
+    height: 4rem;
+    margin-left: 125px;
+    margin-right: 0px;
+    padding-bottom: 0px;
+    margin-top: 1rem;
+    width: 77%;
+  }
+  .saut-de-ligne {
+    display: contents;
+  }
+}
