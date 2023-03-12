@@ -3,12 +3,12 @@
 /* Police écriture */
 @font-face {
   font-family: "Poppins"; /* nom de la police */
-  src: url("/fonts/Poppins-Thin.ttf");
+  src: url("fonts/Poppins-Thin.ttf");
   font-weight: normal;
 }
 @font-face {
   font-family: "Poppins-bold"; /* nom de la police */
-  src: url("/fonts/Poppins-Bold.ttf");
+  src: url("fonts/Poppins-Bold.ttf");
   font-weight: normal;
 }
 
