@@ -1,3 +1,9 @@
+## About Leeswoods
+
+Hey, With this challenge, I learned Javascript. I think there are problems, but I wanted to do this challenge in a short time.
+
+The responsive is not good (I think there are problems with this one but it's not the purpose of the exercise). The dimensions for the desktop are 1440px and for mobile are 375px
+
 # Frontend Mentor - Intro component with sign up form
 
 ![Design preview for the Intro component with sign up form coding challenge](./design/desktop-preview.jpg)
@@ -85,6 +91,42 @@ There are multiple places you can share your solution:
 We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
 
 The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Red: hsl(0, 100%, 74%) 
+- Green: hsl(154, 59%, 51%)
+
+### Accent
+
+- Blue: hsl(248, 32%, 49%)
+
+### Neutral
+
+- Dark Blue: hsl(249, 10%, 26%) 
+- Grayish Blue: hsl(246, 25%, 77%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 16px
+
+### Font
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 400, 500, 600, 700
 
 ## Got feedback for us?
 
