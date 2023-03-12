@@ -164,6 +164,69 @@ input[type="submit"] {
 
 /* DESKTOP */
 
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    align-items: center;
+    background-size: 18%;
+  }
+  header {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  h1 {
+    text-align: left;
+    font-size: 2rem;
+  }
+  .header-text {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  main {
+    margin-top: 0rem;
+    width: 100%;
+  }
+  .flex-center {
+    display: block;
+    margin-right: 2rem;
+  }
+  .Form {
+    width: 30rem;
+    height: 30em;
+  }
+  input[type="email"] {
+    font-size: 16px;
+    height: 44px;
+    width: 430px;
+  }
+  input[type="text"] {
+    font-size: 16px;
+    height: 44px;
+    width: 430px;
+  }
+  input[type="password"] {
+    font-size: 16px;
+    height: 44px;
+    width: 430px;
+  }
+  input[type="submit"] {
+    width: 440px;
+  }
+
+  .container-main-sub {
+    height: 4rem;
+    margin-left: 2px;
+    margin-right: 0px;
+    padding-bottom: 0px;
+    margin-top: 1rem;
+    width: 94%;
+  }
+  .saut-de-ligne {
+    display: contents;
+  }
+}
+
 @media (min-width: 1440px) {
   body {
     display: flex;
@@ -192,7 +255,7 @@ input[type="submit"] {
     display: block;
   }
   .Form {
-    width: 75%;
+    width: 78%;
     height: 30em;
     margin-left: 8rem;
   }
